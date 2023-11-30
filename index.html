@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DIY Home Improvement Hub</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style the body */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        /* Header/logo Title */
+        .header {
+
+            padding: 80px;
+            font-family: system-ui;
+            background:lightcoral;
+            color: white;
+            text-align: center;
+        }
+
+        /* Increase the font size of the heading */
+        .header h1 {
+            font-size: 40px;
+        }
+
+        /* Style the top navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the navigation bar links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Column container */
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+        }
+
+        /* Create two unequal columns that sits next to each other */
+        /* Sidebar/left column */
+        .side {
+            -ms-flex: 30%;
+            /* IE10 */
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* Main column */
+        .main {
+            -ms-flex: 70%;
+            /* IE10 */
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Fake image, just for this example */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        .button {
+            background-color: #1c87c9;
+            border: none;
+            color: white;
+            padding: 20px 34px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Welcome to Home Improvement Hub Platform</h1>
+    </div>
+
+    <div class="navbar">
+        <a href="bedroom.html">Bedroom
+        <a href="kitchen.html">Kitchen</a>
+        <a href="bathroom.html">Bathroom</a>
+        <a href="controller.html" class="right">IoT Control System</a>
+        <a href="home.html">Home</a>
+        <a href="signup.html">Sign in</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <p>Hi I am Nikhlesh Shukla,<br>
+                a student of Sagar Institute of Science and Technology(SISTec).<br><br>
+                I'm passionate about frontend development, and through this website,<br>
+                my aim to provide overview of DIY Home Improvement Hub.<br><br>
+                When I'm not Engaged in my work, you can find me Another Interest or Fun Fact.<br><br>
+                Thanks<br>
+                and I hope you find DIY Home Improvement Hub website a valuable resource.<br>
+                Feel free to connect with me on Linkdin or drop me an email at <br><br>nikhleshshukla123@gmail.com<br>
+                if you have any questions or just want to say hello!<br><br>
+                Cheers,<br>
+                Nikhlesh</p>
+            <h3>Collection of</h3>
+            <p></p>
+            <div class="fakeimg" style="height:60px;">Home</div><br>
+            <div class="fakeimg" style="height:60px;">Tutorials</div><br>
+            <div class="fakeimg" style="height:60px;">Guidlines</div><br>
+            <div class="fakeimg" style="height:60px;">Requirements</div><br>
+            <div class="fakeimg" style="height:60px;">Control System</div><br>
+            <div class="fakeimg" style="height:60px;">About me</div><br>
+            <div class="fakeimg" style="height:60px;">Contact us</div><br>
+        </div>
+        <div class="main">
+            <h2>DIY HOME</h2>
+            <h5>November 15, 2023<br>A DIY Home Improvement Hub is a centralized system designed and built by
+                individuals to manage and control various aspects of their smart home environment. This hub typically
+                utilizes a combination of hardware and software components to create a unified platform for monitoring,
+                automating, and controlling smart devices within a home.</h5>
+            <img src="image/7.jpg" alt="Image">
+            <p>Some text..</p>
+            <p>In summary, a DIY Home Improvement Hub is a project that empowers individuals to create a customized and
+                centralized control center for their smart home devices. It brings together hardware and software
+                components to enhance convenience, efficiency, and control within the home.</p>
+            <br>
+            <h2>GUIDLINES</h2>
+            <h5>November 15, 2023<br>Creating a DIY home improvement hub involves a combination of technical know-how,
+                <br>creativity, and practical considerations. Here are some guidelines and tips to help you with your
+                DIY home <br>improvement hub project:
+            </h5>
+
+            <p>Some text..</p>
+            <ul>
+                <li>Project Planning</li>
+                <ol>
+                    <li>Define Goals and Objectives</li>
+                    <li>Inventory Your Smart Devices</li>
+                    <li>Consider Privacy and Security</li>
+                </ol>
+
+                <li>Hardware Setup</li>
+                <ol>
+                    <li>Choose a Platform</li>
+                    <li>Select Display and Enclosure</li>
+                    <li>Power Supply and Cable Management</li>
+                </ol>
+
+                <li>Software Setup</li>
+                <ol>
+                    <li>Choose an Operating System</li>
+                    <li>Install Home Automation Software</li>
+                    <li>Integrate Node-RED for Automation</li>
+                    <li>Implement MQTT for Communication</li>
+                </ol>
+
+                <li>User Interface and Customization</li>
+                <ol>
+                    <li>Customize Dashboard</li>
+                    <li>Labels and Controls</li>
+                </ol>
+
+                <li>User Interface and Customization</li>
+                <ol>
+                    <li>Customize Dashboard</li>
+                    <li>Labels and Controls</li>
+                </ol>
+            </ul>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+
+                <a href="responce.html" class="button">Submit</a>
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        <h2>This website is reserver in @2023</h2>
+    </div>
+
+</body>
+
+</html>
