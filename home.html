@@ -6,39 +6,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        
         * {
             box-sizing: border-box;
         }
 
-        /* Style the body */
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
         }
 
-        /* Header/logo Title */
         .header {
-
             padding: 80px;
             font-family: system-ui;
-            background:lightcoral;
+            background: lightcoral;
             color: white;
             text-align: center;
         }
 
-        /* Increase the font size of the heading */
         .header h1 {
             font-size: 40px;
         }
 
-        /* Style the top navigation bar */
         .navbar {
             overflow: hidden;
             background-color: #333;
         }
 
-        /* Style the navigation bar links */
         .navbar a {
             float: left;
             display: block;
@@ -48,74 +41,61 @@
             text-decoration: none;
         }
 
-        /* Right-aligned link */
         .navbar a.right {
             float: right;
         }
 
-        /* Change color on hover */
         .navbar a:hover {
             background-color: #ddd;
             color: black;
         }
 
-        /* Column container */
         .row {
-            display: -ms-flexbox;
-            /* IE10 */
             display: flex;
-            -ms-flex-wrap: wrap;
-            /* IE10 */
             flex-wrap: wrap;
         }
 
-        /* Create two unequal columns that sits next to each other */
-        /* Sidebar/left column */
         .side {
-            -ms-flex: 30%;
-            /* IE10 */
             flex: 30%;
             background-color: #f1f1f1;
             padding: 20px;
         }
 
-        /* Main column */
         .main {
-            -ms-flex: 70%;
-            /* IE10 */
             flex: 70%;
             background-color: white;
             padding: 20px;
         }
 
-        /* Fake image, just for this example */
         .fakeimg {
             background-color: #aaa;
             width: 100%;
             padding: 20px;
         }
 
-        /* Footer */
-        .footer {
-            padding: 20px;
-            text-align: center;
-            background: #ddd;
-        }
-
-        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
         @media screen and (max-width: 700px) {
             .row {
                 flex-direction: column;
-                word-wrap:break-word;
             }
-        }
 
-        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-        @media screen and (max-width: 400px) {
+            .navbar a.right,
             .navbar a {
                 float: none;
                 width: 100%;
-                text-wrap:wrap;
+                text-align: left;
+            }
+
+            .navbar a.right {
+                margin-top: 10px;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                text-align: center;
+                float: none;
+                width: 100%;
+                text-wrap: wrap;
             }
         }
 
@@ -167,7 +147,7 @@
     </div>
 
     <div class="navbar">
-        <a href="https://www.youtube.com/channel/UC3xIuo9br_tN4A2lOzZ8ysA">Bedroom
+        <a href="https://www.youtube.com/channel/UC3xIuo9br_tN4A2lOzZ8ysA">Bedroom</a>
         <a href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbXk2MDZMZmc0alpHTkI5NHh6dUNpcUtVX3hqd3xBQ3Jtc0trTG1hQ2tITTlFSUNrUndQWmdPNEczLVkzRGU3dEFtWlhGdHV1dGQ1WXZOaDFXOWFjaXRJUkhVcVJwMUxKVGhIRE1FOVg3ekFLVlFxdm1BQ3JyOF9nVjVHczctTWs3R05TQ1A1LU12a3NEalFzdURSWQ&q=Intarchtick.in">Kitchen</a>
         <a href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbThQY2RER2RPbV9va2hYUkxxTEFvUjRhV0FQZ3xBQ3Jtc0tuNWhwTURoSGFJb3ZFenNERXBaS1dQSm1aMWtmWHRiMG5SdVo1T3BtT21BVGZrM3hUaFBKUkkyc1VDZk1GRF9iaS1LMDdpSnJacGFrYkhOSEVZb1NGcDhWNG5nT1NKZkF5WGFIMGliYjZPS19GOUdHNA&q=https%3A%2F%2Fwww.myinteriorcoach.com">Bathroom</a>
         <a href="controller.html" class="right">IoT Control System</a>
@@ -182,11 +162,11 @@
             <p>Hi I am Nikhlesh Shukla,<br>
                 a student of Sagar Institute of Science and Technology(SISTec).<br><br>
                 I'm passionate about frontend development, and through this website,<br>
-                my aim to provide overview of DIY Home Improvement Hub.<br><br>
+                my aim to provide an overview of DIY Home Improvement Hub.<br><br>
                 When I'm not Engaged in my work, you can find me Another Interest or Fun Fact.<br><br>
                 Thanks<br>
                 and I hope you find DIY Home Improvement Hub website a valuable resource.<br>
-                Feel free to connect with me on Linkdin or drop me an email at <br><br>nikhleshshukla123@gmail.com<br>
+                Feel free to connect with me on LinkedIn or drop me an email at <br><br>nikhleshshukla123@gmail.com<br>
                 if you have any questions or just want to say hello!<br><br>
                 Cheers,<br>
                 Nikhlesh</p>
@@ -194,7 +174,7 @@
             <p></p>
             <div class="fakeimg" style="height:60px;">Home</div><br>
             <div class="fakeimg" style="height:60px;">Tutorials</div><br>
-            <div class="fakeimg" style="height:60px;">Guidlines</div><br>
+            <div class="fakeimg" style="height:60px;">Guidelines</div><br>
             <div class="fakeimg" style="height:60px;">Requirements</div><br>
             <div class="fakeimg" style="height:60px;">Control System</div><br>
             <div class="fakeimg" style="height:60px;">About me</div><br>
@@ -212,10 +192,10 @@
                 centralized control center for their smart home devices. It brings together hardware and software
                 components to enhance convenience, efficiency, and control within the home.</p>
             <br>
-            <h2>GUIDLINES</h2>
+            <h2>GUIDELINES</h2>
             <h5>November 15, 2023<br>Creating a DIY home improvement hub involves a combination of technical know-how,
-                <br>creativity, and practical considerations. Here are some guidelines and tips to help you with your
-                DIY home <br>improvement hub project:
+                creativity, and practical considerations. Here are some guidelines and tips to help you with your DIY
+                home improvement hub project:
             </h5>
 
             <p>Some text..</p>
@@ -274,7 +254,7 @@
         </div>
     </section>
     <div class="footer">
-        <h2>This website is reserver in @2023</h2>
+        <h2>This website is reserved in @2023</h2>
     </div>
 
 </body>
